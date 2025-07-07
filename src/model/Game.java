@@ -43,7 +43,7 @@ public class Game {
 	 */
 	public void restart() {
 		this.board = new Board();
-		this.isP1Turn = true;
+		this.isP1Turn = false;
 		this.skipIndex = -1;
 	}
 
